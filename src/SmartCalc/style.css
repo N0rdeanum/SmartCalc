@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+	padding: 0;
+}
+
+QMainWindow {
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+	height: 600px;
+	background: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 black, stop:1 gray)
+}
+
+
+QLineEdit {
+	margin-bottom: 10%;
+	qproperty-alignment: 'AlignVCenter | AlignCenter';
+	height: 35px;
+	padding: 0%;
+	border: 3px solid blue;
+	border-radius: 15px;
+	background: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 gray, stop:1 black)
+}
+
+#label {
+  qproperty-alignment: 'AlignVCenter | AlignRight';
+	border: 3px solid blue;
+	border-radius: 15px;
+	background: qradialgradient(cx:0, cy:0, radius: 2, fx:0.5, fy:0.5, stop:0 gray, stop:1 black)
+}
+
+
+#box1>.QPushButton{
+	color: white;
+	border-radius: 15%;
+	height: 35px;
+	border: 3px solid gray;
+	background: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 brown, stop:1 darkorange)
+}
+
+
+#box1>.QPushButton:pressed {
+	background-color:  qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 darkorange, stop:1 brown)
+}
+
+#box2>.QPushButton{
+	color: white;
+	border-radius: 15px;
+	height: 35px;
+	border: 3px solid gray;
+	background: qradialgradient(cx:0, cy:0, radius: 1,
+	fx:0.5, fy:0.5, stop:0 blue, stop:1 gray)
+}
+
+#box2>.QPushButton:pressed{
+	background-color: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 gray, stop:1 blue)
+}
+
+#box3>.QPushButton{
+	color: white;
+	border-radius: 15%;
+	height: 35px;
+	border: 3px solid gray;
+	background: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 brown, stop:1 black)
+}
+
+#box3>.QPushButton:pressed{
+	background-color: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 black, stop:1 brown)
+}
+
+#box4>.QPushButton{
+	color: black;
+	border-radius: 15%;
+	height: 35px;
+	border: 3px solid gray;
+	background: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 yellow, stop:1 darkorange)
+}
+
+#box4>.QPushButton:pressed {
+	background-color: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 darkorange, stop:1 yellow)
+}
+
+#box5>.QPushButton{
+  color: black;
+	border-radius: 15%;
+	height: 35px;
+	width: 80px;
+	border: 3px solid gray;
+	background: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 yellow, stop:1 darkorange)
+}
+
+#box5>.QPushButton:pressed {
+  background-color: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 darkorange, stop:1 yellow)
+}
+
+
+QPushButton#pushButton_x {
+	color: white;
+	border-radius: 15%;
+	height: 35px;
+	border: 3px solid gray;
+	background: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 brown, stop:1 black)
+}
+
+QPushButton#pushButton_x:pressed{
+	background-color: qradialgradient(cx:0, cy:0, radius: 2,
+	fx:0.5, fy:0.5, stop:0 black, stop:1 brown)
+}
